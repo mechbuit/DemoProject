@@ -5,7 +5,7 @@ class ClassA
 {
 	void show()
 	{
-		System.out.println("A");
+		System.out.println("A Test");
 	}
 }
 class ClassB extends ClassA
