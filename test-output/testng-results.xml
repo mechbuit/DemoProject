@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22249" started-at="2018-04-18T17:32:04Z" finished-at="2018-04-18T17:32:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22249" started-at="2018-04-18T17:32:04Z" finished-at="2018-04-18T17:32:26Z">
+      <class name="testscripts.TC_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testscripts.TC_001@1aeed2f]" name="setUp" is-config="true" duration-ms="148" started-at="2018-04-18T23:02:04Z" finished-at="2018-04-18T23:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddCountry(java.lang.String, java.lang.String, int)[pri:0, instance:testscripts.TC_001@1aeed2f]" name="verifyAddCountry" duration-ms="21542" started-at="2018-04-18T23:02:04Z" data-provider="addCountry" finished-at="2018-04-18T23:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"id":5,"countryName":"UK","population":10000}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCountry -->
+        <test-method status="PASS" signature="verifyAddCountry(java.lang.String, java.lang.String, int)[pri:0, instance:testscripts.TC_001@1aeed2f]" name="verifyAddCountry" duration-ms="239" started-at="2018-04-18T23:02:26Z" data-provider="addCountry" finished-at="2018-04-18T23:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"id":6,"countryName":"Japan","population":69000}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[69000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCountry -->
+        <test-method status="PASS" signature="verifyDeleteCountry()[pri:0, instance:testscripts.TC_001@1aeed2f]" name="verifyDeleteCountry" duration-ms="3" started-at="2018-04-18T23:02:26Z" finished-at="2018-04-18T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteCountry -->
+        <test-method status="PASS" signature="verifyUpdateCountry()[pri:0, instance:testscripts.TC_001@1aeed2f]" name="verifyUpdateCountry" duration-ms="3" started-at="2018-04-18T23:02:26Z" finished-at="2018-04-18T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateCountry -->
+        <test-method status="PASS" signature="verifyGetCountries()[pri:0, instance:testscripts.TC_001@1aeed2f]" name="verifyGetCountries" duration-ms="170" started-at="2018-04-18T23:02:26Z" depends-on-methods="testscripts.TC_001.verifyAddCountry" finished-at="2018-04-18T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetCountries -->
+      </class> <!-- testscripts.TC_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
